@@ -1,0 +1,33 @@
+.topBar{
+    margin-left: 30px;
+}
+
+.orange{
+    color:#dc552c;
+}
+.black{
+    color:#262525;
+}
+.teal{
+    color:#84f2d6;
+}
+.periwinkle{
+    color:#bde4f4;
+}
+.tan{
+    color:#fff6da;
+}
+/* .nav-wrapper{
+    background-color:#dc552c;
+    color:#f5feff;
+} */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
