@@ -31,3 +31,13 @@ body {
   main {
     flex: 1 0 auto;
   }
+
+  .navImg{
+      height: 50px;
+      width: 45px;
+      margin-top: 7px;
+  }
+
+.container{
+    width: 90%;
+}
