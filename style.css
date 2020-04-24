@@ -74,4 +74,11 @@ body {
 
 .aboutText{
     color: #fff;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+h5{
+    text-align: center;
 }
