@@ -139,3 +139,36 @@ h5{
     border-bottom: 0.5px solid #fff;
     box-shadow: 0 0.5px 0 0 #fff;
 }
+.defaultlist {display: list-item; list-style-type:disc;}
+
+li{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 448px) {
+    .jeffreyAdamo {
+      font-size: 20px !important;
+    }
+    .navImg{
+        margin-top: 3px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navImg{
+        margin-top: 3px;
+    }
+    .modal .modal-content{
+        padding: 0px;
+
+    }
+    #modal1{
+        width: 100%;
+    }
+    #modal2{
+        width: 100%;
+    }
+    #modal3{
+        width: 100%;
+    }
+  }
