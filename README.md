@@ -29,4 +29,30 @@ Fonts: Materialize uses [Materialize via GoogleFonts](https://fonts.googleapis.c
 
 
 ## Demo:
-* User is greeted with simple landing page with navbar containing links, a photo, and links
+* User is greeted with simple index.html landing page with navbar containing links, a photo, and links to GitHub, LinkedIn, and Gmail. A footer and background images are present:  
+
+<img src="./assets/readmeImg/indexFull.png" width="500" >  
+  
+  
+  Website is responsive for a mobile design. Links collapse into a hamburger (as seen on Iphone6):  
+
+<img src="./assets/readmeImg/index.png" width="300" >
+
+### Portfolio.html
+
+User is greeted with cards containing information on featured projects. Image of landing page is displayed with title and links to GitHub Pages and GitHub Repository. The cards can be clicked on to display more information on the back of the card. A demo button allows the user to see a .gif previewing the interaction of the website in a modal. 
+
+<img src="./assets/readmeImg/portfolio.gif" width="500" >
+
+### Contact.html
+
+User is greeted with same landing as index.html, but with a few more details describing that the images are clickable links that direct toward GitHub Profile, LinkedIn Profile, and email using "mailto:jeffreyadamo@gmail.com". There is also an link to my resume hosted on Google Drive:
+
+<img src="./assets/readmeImg/contact.gif" width="500" >  
+
+## Issues/Future Development:
+
+### I would like to see a message form in contact.html, but currently do not know how to hook it up. I've designed the front end to match the styling used, but do not yet know how to implement this. A seperate branch has been made named "contactMessage" that had the placeholder code for this design.
+
+
+<img src="./assets/readmeImg/contactIssue.png" width="300" >
