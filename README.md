@@ -28,7 +28,5 @@ JQuery: [Materialize via Cloudflare](https://cdnjs.cloudflare.com/ajax/libs/mate
 Fonts: Materialize uses [Materialize via GoogleFonts](https://fonts.googleapis.com/icon?family=Material+Icons)
 
 
-
-
 ## Demo:
-* User is greeted with current weather conditions and forecast for Seattle
+* User is greeted with simple landing page with navbar containing links, a photo, and links
