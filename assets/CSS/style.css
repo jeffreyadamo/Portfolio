@@ -17,10 +17,6 @@
 .tan{
     color:#fff6da;
 }
-/* .nav-wrapper{
-    background-color:#dc552c;
-    color:#f5feff;
-} */
 
 body {
     display: flex;
@@ -30,7 +26,7 @@ body {
 
   main {
     flex: 1 0 auto;
-    background-image: url(assets/full-bloom.png)
+    background-image: url(../images/full-bloom.png)
   }
 
   .navImg{
