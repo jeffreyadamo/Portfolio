@@ -48,7 +48,13 @@ User is greeted with cards containing information on featured projects. Image of
 
 User is greeted with same landing as index.html, but with a few more details describing that the images are clickable links that direct toward GitHub Profile, LinkedIn Profile, and email using "mailto:jeffreyadamo@gmail.com". There is also an link to my resume hosted on Google Drive:
 
-<img src="./assets/readmeImg/contact.gif" width="500" >  
+<img src="./assets/readmeImg/contact.gif" width="500" > 
+
+### Aboutme.html
+
+User is greeted with some content about myself. Below is displayed on an iPad and shows the hamburger's usage and how by clicking on my name on the navbar, the user will be directed back to index.html.
+
+<img src="./assets/readmeImg/about.gif" width="500" > 
 
 ## Issues/Future Development:
 
