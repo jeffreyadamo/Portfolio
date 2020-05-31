@@ -53,6 +53,71 @@
         </div>
 
         <div class="row">
+
+          <!-- EAT DA BURGER CARD -->
+          <div class="col s12 m6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./assets/images/burgerHome.png" />
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"
+                    >Eat Da Burger!
+                    <!-- Modal Button -->
+                    <i class="material-icons right">
+                        <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal1">Demo</a>
+                    </i>
+                    </span>
+                    <a
+                    href="https://ancient-cove-71755.herokuapp.com/"
+                    >Website hosted by Heroku
+                    </a><br>
+                    <a
+                    href="https://jeffreyadamo.github.io/EatDaBurger/"
+                    >GitHub Pages Readme
+                    </a><br>
+                    <a
+                    href="https://github.com/jeffreyadamo/EatDaBurger"
+                    >GitHub Repository
+                    </a>
+                    <p>
+                    Burger logger app showcasing Model-View-Controller design elements to Create, Read, and Update database elements
+                    </p>
+                    <!-- modal -->
+                    <div id="modal1" class="modal">
+                    <div class="modal-content">
+                        <img class="activator img-responsive" src="./assets/images/burgerDemo.gif" style="height:auto; width:100%"/>
+                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                    </div>
+                    </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"
+                    >Eat Da Burger!<i
+                        class="material-icons right"
+                        >close</i
+                    ></span
+                    >
+                    <p>Burger logger application allows the user to use query a database of burgers and update its status by either selecting "DEVOUR!" or "PREP FOR EATING". The user can add a new burger to the database as well.
+                    </p>
+                    <p>Project Highlights:</p>
+                    <ul class="browser-default">
+                        <li>Designed with <a href="https://materializecss.com/">Materialize</a> CSS framework</li>
+                        <li>Node.js and MySQL localhost database server</li>
+                        <li>Heroku JawsDB MySQL hosted web server</li>
+                        <li>Express.js</li>
+                        <li>Handlebars.js HTML rendering</li>
+                        <li>ORM</li>
+
+                    </ul>
+
+                    
+                </div>
+            </div>
+          </div>
+          <!-- END OF EAT DA BURGER -->
+
           <!-- PANDEMIC PANTRY CARD -->
             <div class="col s12 m6">
                 <div class="card large">
@@ -110,120 +175,125 @@
                     </div>
                 </div>
             </div>
+          <!-- END OF PANDEMIC PANTRY CARD -->
+
           <!-- WEATHER DASHBOARD CARD -->
-        <div class="col s12 m6">
-          <div class="card large">
-              <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./assets/images/weatherDashboard.png" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                >Weather Dashboard
-                <!-- Modal Button -->
-                <i class="material-icons right">
-                    <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal2">Demo</a>
-                </i>
-                </span>
-                <a
-                href="https://jeffreyadamo.github.io/06_Weather_Dashboard/"
-                >GitHub Pages
-                </a><br>
-                <a
-                href="https://github.com/jeffreyadamo/06_Weather_Dashboard"
-                >GitHub Repository
-                </a>
-                <p>
-                Search city for current and forecasted weather information that utilizes OpenWeatherMap API and local storage 
-                </p>
-                <!-- modal -->
-                <div id="modal2" class="modal">
-                <div class="modal-content">
-                    <img class="activator img-responsive" src="./assets/images/weatherDashboard.gif" style="height:auto; width:100%"/>
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+          <div class="col s12 m6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/weatherDashboard.png" />
                 </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                  >Weather Dashboard
+                  <!-- Modal Button -->
+                  <i class="material-icons right">
+                      <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal2">Demo</a>
+                  </i>
+                  </span>
+                  <a
+                  href="https://jeffreyadamo.github.io/06_Weather_Dashboard/"
+                  >GitHub Pages
+                  </a><br>
+                  <a
+                  href="https://github.com/jeffreyadamo/06_Weather_Dashboard"
+                  >GitHub Repository
+                  </a>
+                  <p>
+                  Search city for current and forecasted weather information that utilizes OpenWeatherMap API and local storage 
+                  </p>
+                  <!-- modal -->
+                  <div id="modal2" class="modal">
+                  <div class="modal-content">
+                      <img class="activator img-responsive" src="./assets/images/weatherDashboard.gif" style="height:auto; width:100%"/>
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                  </div>
+              </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                    >Weather Dashboard<i class="material-icons right"
+                    >close</i
+                    ></span
+                >
+                <p>
+                    Utilizes the third-party API, OpenWeather API to build a
+                    weather dashboard to retrive weather data for cities. The
+                    dashboard will run in the browser and feature dynamically
+                    updated HTML and CSS
+                </p>
+                <p>
+                  <ul class="browser-default">
+                    <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
+                    <li>Search button initiates local storage save and retrieve data using JavaScript</li>
+                    <li>3 APIs from OpenWeatherAPI used to call current weather, UV Index, and forecast weather</li>
+                  </ul>
+                </p>
                 </div>
             </div>
-              <!-- Back of Card -->
-              <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4"
-                  >Weather Dashboard<i class="material-icons right"
-                  >close</i
-                  ></span
-              >
-              <p>
-                  Utilizes the third-party API, OpenWeather API to build a
-                  weather dashboard to retrive weather data for cities. The
-                  dashboard will run in the browser and feature dynamically
-                  updated HTML and CSS
-              </p>
-              <p>
-                <ul class="browser-default">
-                  <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
-                  <li>Search button initiates local storage save and retrieve data using JavaScript</li>
-                  <li>3 APIs from OpenWeatherAPI used to call current weather, UV Index, and forecast weather</li>
-                </ul>
-              </p>
-              </div>
           </div>
-        </div>
-        <!-- WORK DAY SCHEDULER CARD -->
-        <div class="col s12 m6">
-          <div class="card large">
-              <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./assets/images/workDay.png" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4"
-                >Work Day Scheduler
-                <!-- Modal Button -->
-                <i class="material-icons right">
-                    <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal3">Demo</a>
-                </i>
-                </span>
-                <a
-                href="https://jeffreyadamo.github.io/05_3rdPartyAPIs_WorkDayScheduler/"
-                >GitHub Pages
-                </a><br>
-                <a
-                href="https://github.com/jeffreyadamo/05_3rdPartyAPIs_WorkDayScheduler"
-                >GitHub Repository
-                </a>
+          <!-- END OF WEATHER DASHBOARD CARD -->
+
+          <!-- WORK DAY SCHEDULER CARD -->
+          <div class="col s12 m6">
+            <div class="card large">
+                <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="./assets/images/workDay.png" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"
+                  >Work Day Scheduler
+                  <!-- Modal Button -->
+                  <i class="material-icons right">
+                      <a class="waves-effect waves-light btn modal-trigger cyan darken-1" href="#modal3">Demo</a>
+                  </i>
+                  </span>
+                  <a
+                  href="https://jeffreyadamo.github.io/05_3rdPartyAPIs_WorkDayScheduler/"
+                  >GitHub Pages
+                  </a><br>
+                  <a
+                  href="https://github.com/jeffreyadamo/05_3rdPartyAPIs_WorkDayScheduler"
+                  >GitHub Repository
+                  </a>
+                  <p>
+                  Set and save tasks during time blocks that uses local storage and Moment.js API to display current time
+                  </p>
+                <!-- modal -->
+                <div id="modal3" class="modal">
+                  <div class="modal-content">
+                      <img class="activator img-responsive" src="./assets/images/WorkDay2.gif" style="height:auto; width:100%"/>
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                  </div>
+                  </div>
+                </div>
+                <!-- Back of Card -->
+                <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                    >Work Day Scheduler<i class="material-icons right"
+                    >close</i
+                    ></span
+                >
                 <p>
-                Set and save tasks during time blocks that uses local storage and Moment.js API to display current time
+                    A functional work day schedule application that
+                    provides the user with the current time, an area to take notes at
+                    each time hour of the day, and have each time block's color
+                    represent its time relative to the current time. 
                 </p>
-              <!-- modal -->
-              <div id="modal3" class="modal">
-                <div class="modal-content">
-                    <img class="activator img-responsive" src="./assets/images/WorkDay2.gif" style="height:auto; width:100%"/>
-                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                <p>
+                  <ul class="browser-default">
+                    <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
+                    <li>Times provided by third-party API - <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">Moment.js</a></li>
+                    <li>HTML was dynamically updated using JQuery to dislay time blocks</li>
+                    <li>JavaScript enables local storage to save tasks upon revist to the site</li>
+                  </ul>
+                </p>
                 </div>
-                </div>
-              </div>
-              <!-- Back of Card -->
-              <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4"
-                  >Work Day Scheduler<i class="material-icons right"
-                  >close</i
-                  ></span
-              >
-              <p>
-                  A functional work day schedule application that
-                  provides the user with the current time, an area to take notes at
-                  each time hour of the day, and have each time block's color
-                  represent its time relative to the current time. 
-              </p>
-              <p>
-                <ul class="browser-default">
-                  <li>Designed with <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">BootstrapCDN</a> CSS framework</li>
-                  <li>Times provided by third-party API - <a href="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">Moment.js</a></li>
-                  <li>HTML was dynamically updated using JQuery to dislay time blocks</li>
-                  <li>JavaScript enables local storage to save tasks upon revist to the site</li>
-                </ul>
-              </p>
-              </div>
+            </div>
           </div>
-        </div>
-    </div>
+      </div>
+    <!-- END OF WORK DAY SCHEDULER CARD -->
 
     </main>
 
